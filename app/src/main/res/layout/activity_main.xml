@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LocalizatorActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Posición:" />
+
+    <TextView
+        android:id="@+id/_latitud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Latitud:" />
+
+    <TextView
+        android:id="@+id/_longitud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Longitud" />
+
+    <TextView
+        android:id="@+id/_precision"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Precisión:" />
+
+    <TextView
+        android:id="@+id/_provider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Provider Status" />
+
+    <TextView
+        android:id="@+id/_estado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estado =>" />
+
+    <Button
+        android:id="@+id/_comenzar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Comenzar" />
+
+    <Button
+        android:id="@+id/_finalizar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Finalizar" />
+
+</LinearLayout>
